@@ -1,5 +1,4 @@
-# hand-gesture-pc-control
-## GestureMouse
+# GestureMouse
 
 Control your PC with hand gestures using a webcam. GestureMouse tracks a single hand with MediaPipe and maps gestures to mouse actions, scrolling, and an on-screen keyboard toggle. It runs on Windows, macOS, and Linux.
 
@@ -112,6 +111,3 @@ PyAutoGUI has a safety feature: moving the mouse to the top-left corner will imm
 - If the camera does not open, change `cam_index` in `config.json`.
 - If tracking is unstable, run calibration from the UI and ensure good lighting.
 - If FPS is low, set `low_perf` to `true` and reduce `frame_w` / `frame_h`.
-
-
-
